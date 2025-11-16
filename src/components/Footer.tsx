@@ -65,7 +65,7 @@ const Footer = () => {
           <p className="text-primary-foreground/70 font-inter text-sm">
             © {new Date().getFullYear()} The Templers Cafe. All rights reserved.
           </p>
-          <p className="text-primary-foreground/70 font-inter text-sm">Development by <a href="https://zencuit.com" target="_blank" rel="noopener noreferrer">Zencuit</a> Pvt Ltd</p>
+          <p className="text-primary-foreground/70 font-inter text-sm">Development by <a href="https://www.zencuit.com/" target="_blank" rel="noopener noreferrer">Zencuit</a> Pvt Ltd</p>
         </div>
       </div>
     </footer>
