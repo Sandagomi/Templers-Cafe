@@ -1,4 +1,4 @@
-import { Award, Coffee, Heart, Users } from "lucide-react";
+import { Award, Coffee, Heart, Mic, Users } from "lucide-react";
 import cafeInterior from "@/assets/cafe-interior.jpeg";
 
 const About = () => {
@@ -9,9 +9,9 @@ const About = () => {
       description: "Sourced from the finest beans around the world",
     },
     {
-      icon: Award,
-      title: "Award-Winning",
-      description: "Recognized for excellence in culinary arts",
+      icon: Mic,
+      title: "Open Mic Nights",
+      description: "Showcasing local talent every week",
     },
     {
       icon: Heart,
