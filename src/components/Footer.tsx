@@ -47,15 +47,15 @@ const Footer = () => {
             <ul className="space-y-3 font-inter">
               <li className="flex items-start gap-2">
                 <MapPin className="h-5 w-5 text-secondary mt-0.5 flex-shrink-0" />
-                <span className="text-primary-foreground/80">123 Coffee Street, City Center</span>
+                <span className="text-primary-foreground/80">37 A Templers Rd, Dehiwala-Mount Lavinia, Sri Lanka</span>
               </li>
               <li className="flex items-center gap-2">
                 <Phone className="h-5 w-5 text-secondary flex-shrink-0" />
-                <span className="text-primary-foreground/80">+1 (555) 123-4567</span>
+                <span className="text-primary-foreground/80">+94 71 722 2444</span>
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="h-5 w-5 text-secondary flex-shrink-0" />
-                <span className="text-primary-foreground/80">hello@templerscafe.com</span>
+                <span className="text-primary-foreground/80">thetemplerscafe@gmail.com</span>
               </li>
             </ul>
           </div>
@@ -65,6 +65,7 @@ const Footer = () => {
           <p className="text-primary-foreground/70 font-inter text-sm">
             © {new Date().getFullYear()} The Templers Cafe. All rights reserved.
           </p>
+          <p className="text-primary-foreground/70 font-inter text-sm">Development by <a href="https://zencuit.com" target="_blank" rel="noopener noreferrer">Zencuit</a> Pvt Ltd</p>
         </div>
       </div>
     </footer>

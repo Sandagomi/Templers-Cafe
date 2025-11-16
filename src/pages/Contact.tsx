@@ -39,8 +39,8 @@ const Contact = () => {
                       Visit Us
                     </h3>
                     <p className="font-inter text-muted-foreground text-lg">
-                      123 Coffee Street, City Center<br />
-                      Downtown District, 12345
+                      37 A Templers Rd, Dehiwala<br />
+                      Mount Lavinia, Sri Lanka
                     </p>
                   </div>
                 </div>
@@ -54,7 +54,7 @@ const Contact = () => {
                       Call Us
                     </h3>
                     <p className="font-inter text-muted-foreground text-lg">
-                      +1 (555) 123-4567
+                      +94 71 722 2444
                     </p>
                   </div>
                 </div>
@@ -68,7 +68,7 @@ const Contact = () => {
                       Email Us
                     </h3>
                     <p className="font-inter text-muted-foreground text-lg">
-                      hello@templerscafe.com
+                      thetemplerscafe@gmail.com
                     </p>
                   </div>
                 </div>
