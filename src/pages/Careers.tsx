@@ -25,12 +25,6 @@ const Careers = () => {
       description: "Support our kitchen operations with food preparation and maintaining quality standards. Flexible hours available.",
     },
     {
-      title: "Front of House Manager",
-      type: "Full-time",
-      location: "Main Location",
-      description: "Lead our service team to deliver exceptional customer experiences. Previous management experience required.",
-    },
-    {
       title: "Server",
       type: "Part-time",
       location: "Main Location",

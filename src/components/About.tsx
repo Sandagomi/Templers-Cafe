@@ -1,5 +1,5 @@
 import { Award, Coffee, Heart, Mic, Users } from "lucide-react";
-import cafeInterior from "@/assets/cafe-interior.jpeg";
+import cafeInterior from "@/assets/templerspic.jpg";
 
 const About = () => {
   const features = [
