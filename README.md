@@ -1,19 +1,10 @@
-# The Templers Cafe Website# The Templers Cafe Website
+# The Templers Cafe Website
 
 A modern, responsive website for The Templers Cafe - showcasing exceptional coffee, artisan bakery, and exquisite Italian, French & English cuisine.
 
 
 
 **Developed by [Zencuit](https://www.zencuit.com/) Pvt Ltd**## Project Overview## Project info
-
-
-
----
-
-
-
-## 🚀 Technologies UsedA modern, responsive website for The Templers Cafe - showcasing exceptional coffee, artisan bakery, and exquisite Italian, French & English cuisine.**URL**: https://lovable.dev/projects/c9242f2d-6ba2-43bf-9037-b028b5cd9526
-
 
 
 - **Vite** - Fast build tool and development server
