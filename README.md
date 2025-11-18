@@ -1,6 +1,4 @@
-# The Templers Cafe Website# The Templers Cafe Website# Welcome to your Lovable project
-
-
+# The Templers Cafe Website# The Templers Cafe Website
 
 A modern, responsive website for The Templers Cafe - showcasing exceptional coffee, artisan bakery, and exquisite Italian, French & English cuisine.
 
