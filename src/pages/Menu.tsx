@@ -41,16 +41,16 @@ const Menu = () => {
               </Button>
             </div>
             
-            <div className="w-full bg-card rounded-lg shadow-elegant overflow-hidden">
+            <div className="w-full bg-card rounded-lg shadow-elegant overflow-auto" style={{ maxHeight: "calc(100vh - 280px)" }}>
               <iframe
                 src={menuPdf}
-                className="w-full h-[calc(100vh-16rem)] md:h-[calc(100vh-12rem)]"
+                className="w-full"
                 title="Menu PDF"
                 style={{ 
                   border: "none", 
+                  height: "800px",
                   minHeight: "600px",
-                  overflow: "auto",
-                  WebkitOverflowScrolling: "touch"
+                  display: "block"
                 }}
               />
             </div>
