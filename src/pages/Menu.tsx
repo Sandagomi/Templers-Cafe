@@ -5,6 +5,16 @@ import { Button } from "@/components/ui/button";
 import menuPdf from "@/assets/Menu.pdf";
 
 const Menu = () => {
+  const handleDownload = () => {
+    const link = document.createElement('a');
+    link.href = menuPdf;
+    link.download = 'Templers-Cafe-Menu.pdf';
+    link.target = '_blank';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <div className="min-h-screen flex flex-col">
       <Navigation />
@@ -21,23 +31,27 @@ const Menu = () => {
         <section className="py-8 bg-background">
           <div className="container mx-auto px-4">
             <div className="flex justify-center mb-4">
-              <a href={menuPdf} download="Templers-Cafe-Menu.pdf">
-                <Button
-                  size="lg"
-                  className="bg-secondary hover:bg-secondary/90 text-secondary-foreground font-inter font-semibold"
-                >
-                  <Download className="mr-2 h-5 w-5" />
-                  Download Menu
-                </Button>
-              </a>
+              <Button
+                onClick={handleDownload}
+                size="lg"
+                className="bg-secondary hover:bg-secondary/90 text-secondary-foreground font-inter font-semibold"
+              >
+                <Download className="mr-2 h-5 w-5" />
+                Download Menu
+              </Button>
             </div>
             
             <div className="w-full bg-card rounded-lg shadow-elegant overflow-hidden">
               <iframe
                 src={menuPdf}
-                className="w-full h-[calc(100vh-16rem)]"
+                className="w-full h-[calc(100vh-16rem)] md:h-[calc(100vh-12rem)]"
                 title="Menu PDF"
-                style={{ border: "none", minHeight: "800px" }}
+                style={{ 
+                  border: "none", 
+                  minHeight: "600px",
+                  overflow: "auto",
+                  WebkitOverflowScrolling: "touch"
+                }}
               />
             </div>
           </div>
